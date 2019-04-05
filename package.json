@@ -1,0 +1,33 @@
+{
+  "name": "film-explorer-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CS312 memory-backed film explorer server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "watch": "nodemon --ignore '*.test.js' index.js"
+  },
+  "keywords": [],
+  "author": "Christopher Andrews <candrews@middlebury.edu>",
+  "contributors": [
+    "Michael Linderman <mlinderman@middlebury.edu>",
+    "Christopher Andrews <candrews@middlebury.edu>"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.5.0",
+    "nodemon": "^1.18.10",
+    "supertest": "^4.0.2"
+  }
+}
